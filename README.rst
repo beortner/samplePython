@@ -9,6 +9,7 @@ https://medium.com/@cristobalcl/set-up-tests-linters-and-type-checking-in-python
 poetry build
 poetry lock
 docker build . -t exa1
+poetry run pre-commit run --all-files
 
 
 Example text.
