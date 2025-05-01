@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "src" # has to match the folder
+version = "0.1.0"
+description = ""
+authors = ["beortner <bernhardortner@gmx.net>"]
+packages = [{ include = "src" }]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.coverage.run]
+omit = [".*", "*/site-packages/*"]
+
+[tool.coverage.report]
+fail_under = 100
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.5"
+nox = "^2025.2.9"
+nox-poetry = "^1.2.0"
+pre-commit = "^4.2.0"
+coverage = {extras = ["toml"], version = "^7.8.0"}
+flake8 = "^7.2.0"
+flake8-bugbear = "^24.12.12"
+mypy = "^1.15.0"
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
