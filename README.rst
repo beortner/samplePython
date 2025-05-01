@@ -3,11 +3,21 @@ Header 1
 --------
 Subtitle
 --------
+Poetry workflow
 https://python-poetry.org/
+
+QA guide and how this template was crafted
 https://medium.com/@cristobalcl/set-up-tests-linters-and-type-checking-in-python-projects-in-2020-9cc1b1e2750d
+
+How to use Pre-commit Hooks
 https://medium.com/@ripoche.b/using-global-pre-commit-hook-to-prevent-committing-unwanted-code-edbbf957ad12
+
 Full Pre-commit-Hook guide
 https://gatlenculp.medium.com/effortless-code-quality-the-ultimate-pre-commit-hooks-guide-for-2025-57ca501d9835
+
+DrawIo Guide for embedding graphs in RST
+https://sanhe-dev-exp-share.readthedocs.io/02-Software-Engineering/05-Documentation/02-RestructuredText-RST-Root/02-RST-with-DrawIO/README.html
+
 
 poetry build
 poetry lock
